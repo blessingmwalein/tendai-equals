@@ -1,0 +1,76 @@
+.console {
+    background-color: #1c2128;
+    color: white;
+    padding: 10px;
+    font-family: monospace;
+    height: 100%;
+    /* overflow-y: scroll; */
+    margin: 8px;
+    border-radius: 20px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+        rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.terminal-input {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    color: #00ff00;
+    margin-right: 5px;
+}
+
+#command-input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: inherit;
+    outline: none;
+    width: 100%;
+}
+
+#command-input::placeholder {
+    color: #808080;
+}
+#another-command-input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: monospace;
+    font-size: inherit;
+    outline: none;
+    width: 100%;
+}
+
+#another-command-input::placeholder {
+    color: #808080;
+}
+
+.console-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .action-buttons {
+    display: flex;
+    gap: 5px;
+  }
+
+  .action {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff5f56;
+  }
+
+  .minimize {
+    background-color: #ffbd2e;
+  }
+
+  .expand {
+    background-color: #00ca4e;
+  }
+
